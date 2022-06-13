@@ -6,7 +6,11 @@ To install:
 
 Publish config file:
 
-```php artisan vendor:publish --provider="ImperianSystems\LaravelDebuggerApi\LaravelDebuggerApiProvider" --tag="config"```
+```
+   php artisan vendor:publish \
+   --provider="ImperianSystems\LaravelDebuggerApi\LaravelDebuggerApiProvider" \
+   --tag="config"
+```
 
 Set shared key in .env:
 
