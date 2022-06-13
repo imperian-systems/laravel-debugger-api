@@ -1,0 +1,22 @@
+{
+    "name": "imperian-systems/laravel-debugger-api",
+    "autoload": {
+        "psr-4": {
+            "ImperianSystems\\LaravelDebuggerApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tim Schwartz",
+            "email": "tim.schwartz@imperiansystems.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ImperianSystems\\LaravelDebuggerApi\\LaravelDebuggerApiProvider"
+            ]
+        }
+    }
+}
